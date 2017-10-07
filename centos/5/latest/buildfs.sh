@@ -7,7 +7,7 @@ DIST=centos-5
 DATE=latest
 BUILDROOT=~/BUILDROOT
 TARGET=${BUILDROOT}/${DIST}-${DATE}
-MIRROR=http://mirror.centos.org/centos/5/os/x86_64/CentOS/
+MIRROR=http://vault.centos.org/5.11/os/x86_64/CentOS/
 
 rm -rf ${TARGET}
 mkdir -p ${TARGET}
