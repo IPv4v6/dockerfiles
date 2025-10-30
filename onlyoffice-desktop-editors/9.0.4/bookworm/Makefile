@@ -16,4 +16,5 @@ run:
 	--volume /etc/localtime:/etc/localtime:ro \
 	--volume /tmp/.X11-unix:/tmp/.X11-unix \
 	--volume ${VOLDIR}:/home/user \
+	--ipc host \
 	${TAG}
