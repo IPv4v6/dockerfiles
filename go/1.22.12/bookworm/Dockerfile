@@ -1,5 +1,5 @@
 FROM ipv4v6/bookworm
-LABEL maintainer "Stefan <mail.ipv4v6+dckr@gmail.com>"
+LABEL maintainer="Stefan <mail.ipv4v6+dckr@gmail.com>"
 ARG GOFILE=go1.22.12.src.tar.gz
 ARG GOFILE_SHA256=012a7e1f37f362c0918c1dfa3334458ac2da1628c4b9cf4d9ca02db986e17d71
 ARG GOFILE_TEMP=go1.21.13.src.tar.gz

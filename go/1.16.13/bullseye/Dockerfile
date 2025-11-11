@@ -1,5 +1,5 @@
 FROM ipv4v6/bullseye
-LABEL maintainer "Stefan <mail.ipv4v6+dckr@gmail.com>"
+LABEL maintainer="Stefan <mail.ipv4v6+dckr@gmail.com>"
 ARG GOFILE=go1.16.13.src.tar.gz
 ARG GOFILE_SHA256=b0926654eaeb01ef43816638f42d7b1681f2d3f41b9559f07735522b7afad41a
 

@@ -1,5 +1,5 @@
 FROM ipv4v6/trixie
-LABEL maintainer "Stefan <mail.ipv4v6+dckr@gmail.com>"
+LABEL maintainer="Stefan <mail.ipv4v6+dckr@gmail.com>"
 ARG GOFILE=go1.24.7.src.tar.gz
 ARG GOFILE_SHA256=2a8f50db0f88803607c50d7ea8834dcb7bd483c6b428a91e360fdf8624b46464
 

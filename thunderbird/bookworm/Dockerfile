@@ -1,5 +1,5 @@
 FROM docker.io/ipv4v6/bookworm
-LABEL maintainer "Stefan <mail.ipv4v6+dckr@gmail.com>"
+LABEL maintainer="Stefan <mail.ipv4v6+dckr@gmail.com>"
 ARG UID
 ARG GID
 

@@ -1,5 +1,5 @@
 FROM ipv4v6/stretch as builder
-LABEL maintainer "Stefan <mail.ipv4v6+dckr@gmail.com>"
+LABEL maintainer="Stefan <mail.ipv4v6+dckr@gmail.com>"
 
 RUN set -eu && \
 	apt-get update && apt-get install --no-install-recommends -y \
@@ -18,7 +18,7 @@ RUN set -eu && \
 
 
 FROM ipv4v6/stretch
-LABEL maintainer "Stefan <mail.ipv4v6+dckr@gmail.com>"
+LABEL maintainer="Stefan <mail.ipv4v6+dckr@gmail.com>"
 
 RUN set -eu && \
 	apt-get update && apt-get install --no-install-recommends -y \
