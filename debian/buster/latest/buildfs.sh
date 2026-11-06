@@ -7,8 +7,8 @@ DIST=buster
 DATE=latest
 BUILDROOT=~/BUILDROOT
 TARGET=${BUILDROOT}/${DIST}-${DATE}
-MIRROR=http://deb.debian.org/debian/
-SEC=http://security.debian.org
+MIRROR=http://archive.debian.org/debian/
+SEC=http://archive.debian.org/debian-security/
 
 rm -rf ${TARGET}
 mkdir -p ${TARGET}
